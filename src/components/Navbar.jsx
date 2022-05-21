@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import e from "../pics/e.png";
-import v from "../pics/v.svg";
-import d from "../pics/diamond.svg";
-import h from "../pics/h.svg";
+import playIcon from "../pics/playIcon.svg";
+import icon1 from "../pics/icon1.png";
+import diamondIcon from "../pics/diamond.svg";
+import icon2 from "../pics/icon2.svg";
 import { Link } from "react-router-dom";
 const Container = styled.div`
   width: 100vw;
@@ -71,19 +71,19 @@ const Navbar = ({ text }) => {
     <Container>
       <ImageContainer>
         <NavebarItemContainer>
-          <Image src={e} style={{ marginRight: "3rem" }}></Image>
+          <Image src={icon1} style={{ marginRight: "3rem" }}></Image>
           <ImageText style={{ marginRight: "0.5rem" }}>امکانات</ImageText>
         </NavebarItemContainer>
         <NavebarItemContainer>
-          <Image src={v}></Image>
+          <Image src={playIcon}></Image>
           <ImageText>ویدیوی آموزشی</ImageText>
         </NavebarItemContainer>
         <NavebarItemContainer>
-          <Image src={d}></Image>
+          <Image src={diamondIcon}></Image>
           <ImageText>قیمت گذاری</ImageText>
         </NavebarItemContainer>
         <NavebarItemContainer>
-          <Image src={h} style={{ marginRight: "-1rem" }}></Image>
+          <Image src={icon2} style={{ marginRight: "-1rem" }}></Image>
           <ImageText>همکاری با آژانس ما</ImageText>
         </NavebarItemContainer>
       </ImageContainer>

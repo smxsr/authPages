@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import light from "../pics/light.svg";
-import mp from "../pics/Frame2.svg";
+import Frame2 from "../pics/Frame2.svg";
 import me from "../pics/me.svg";
 const Container = styled.div`
   flex: 1;
@@ -21,7 +21,7 @@ const LeftSide2 = () => {
         src={light}
         style={{ width: "3rem", height: "3rem", margin: "0 0 30px 170px " }}
       />
-      <Image src={mp} />
+      <Image src={Frame2} />
       <Image src={me} />
     </Container>
   );

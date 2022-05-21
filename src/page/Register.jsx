@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import LeftSide from "../components/LeftSide2";
 import Navbar from "../components/Navbar";
 import styled from "styled-components";
-import google from "../pics/google.svg";
+import googleIcon from "../pics/google.svg";
 import Badge from "../pics/Badge.png";
 import { Link } from "react-router-dom";
 
@@ -147,7 +147,7 @@ const Register = () => {
               >
                 حساب گوگل
               </LoginSpan>
-              <Image src={google} />
+              <Image src={googleIcon} />
             </Button>
             <LoginSpan>
               <Link to="/">حساب کاربری دارم</Link>
